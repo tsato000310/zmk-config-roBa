@@ -73,7 +73,7 @@
 &kp ESC           &kp W           &kp E             &kp R                        &kp T                                                          &kp Y                &kp U        &lt 5 I            &kp O            &kp BACKSPACE
 &kp A             &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LCTRL F                  &kp G        &kp LS(LG(S))                      &kp MINUS      &kp H                &mt RCTRL J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &kp ENTER
 &mt LEFT_SHIFT Z  &kp X           &kp C             &kp V                        &kp B        &kp COLON                          &kp SEMICOLON  &kp N                &kp M        &kp COMMA          &kp DOT          &kp SLASH
-&kp LANGUAGE_5    &kp LEFT_ALT    &kp LEFT_COMMAND  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp SPACE      &lt 1 RIGHT_COMMAND                                                   &kp LANGUAGE_4
+&kp LANGUAGE_1    &kp LEFT_ALT    &kp LEFT_COMMAND  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp SPACE      &lt 1 RIGHT_COMMAND                                                   &kp LANGUAGE_4
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -81,10 +81,10 @@
 
         function {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F2  &kp F3  &kp F4  &kp F4  &kp DEL
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&trans  &trans  &trans  &trans  &trans                       &kp F2  &kp F3   &kp F4   &kp F4   &kp DEL
+&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F5  &kp F6   &kp F7   &kp F8   &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans   &kp F9  &kp F10  &kp F11  &kp F12  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                             &trans
             >;
         };
 
