@@ -70,10 +70,10 @@
 
         default {
             bindings = <
-&kp ESC           &kp W           &kp E             &kp R                        &kp T                                                          &kp Y                &kp U        &lt 1 I            &kp O            &kp BACKSPACE
-&kp A             &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LCTRL F                  &kp G        &kp LS(LG(S))                      &kp MINUS      &kp H                &mt RCTRL J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &kp ENTER
-&mt LEFT_SHIFT Z  &kp X           &kp C             &kp V                        &kp B        &kp COLON                          &kp SEMICOLON  &kp N                &kp M        &kp COMMA          &kp DOT          &kp MINUS
-&kp LANGUAGE_1    &kp LEFT_ALT    &kp LEFT_COMMAND  &lt_to_layer_0 4 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp SPACE      &lt 0 RIGHT_COMMAND                                                   &kp LANGUAGE_4
+&kp ESC         &kp W           &kp E             &kp R                        &kp T                                                        &kp Y                &kp U        &lt 1 I            &kp O            &kp BACKSPACE
+&kp A           &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LCTRL F                  &kp G      &kp LS(LG(S))                      &kp MINUS      &kp H                &mt RCTRL J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &kp ENTER
+&kp Z           &kp X           &kp C             &kp V                        &kp B      &kp COLON                          &kp SEMICOLON  &kp N                &kp M        &kp COMMA          &kp DOT          &kp MINUS
+&kp LANGUAGE_1  &kp LEFT_ALT    &kp LEFT_COMMAND  &lt_to_layer_0 4 INT_HENKAN  &lt 2 TAB  &lt_to_layer_0 3 INT_MUHENKAN      &kp SPACE      &lt 0 RIGHT_COMMAND                                                   &kp LANGUAGE_4
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -90,7 +90,7 @@
 
         glyph-symbol {
             bindings = <
-&kp Q   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                              &kp AMPERSAND     &kp TILDE          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp P
+&kp Q   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                              &kp AMPERSAND     &kp TILDE          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
 &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp CARET  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH              &kp DOLLAR             &kp PERCENT
 &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &kp BSLH   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDERSCORE
 &trans  &trans           &trans           &trans           &trans        &trans                       &trans     &trans                                                                            &kp PIPE
