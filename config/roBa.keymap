@@ -90,10 +90,10 @@
 
         glyph-symbol {
             bindings = <
-&kp Q   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp DOUBLE_QUOTES                           &kp AMPERSAND     &kp TILDE          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp P
-&trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SINGLE_QUOTE   &trans        &kp CARET  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH              &kp DOLLAR             &kp PERCENT
-&trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp INT_YEN        &kp PIPE      &kp BSLH   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDERSCORE
-&trans  &trans           &trans           &trans           &trans             &trans        &trans     &trans                                                                            &trans
+&kp Q   &trans  &trans  &trans  &kp DOUBLE_QUOTES                           &kp AMPERSAND     &kp TILDE          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp P
+&trans  &trans  &trans  &trans  &kp SINGLE_QUOTE   &trans        &kp CARET  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH              &kp DOLLAR             &kp PERCENT
+&trans  &trans  &trans  &trans  &kp INT_YEN        &kp PIPE      &kp BSLH   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDERSCORE
+&trans  &trans  &trans  &trans  &trans             &trans        &trans     &trans                                                                            &trans
             >;
         };
 
